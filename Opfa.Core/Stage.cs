@@ -10,7 +10,7 @@ namespace Opfa.Core
 
         internal Stage() 
         {
-            
+            MyBoard = new Board();
         }
 
         public void Tick()
